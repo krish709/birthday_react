@@ -2,6 +2,7 @@
   "name": "birthday",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://krish709.github.io/birthday_react/",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
@@ -18,8 +19,7 @@
     "react-scripts": "5.0.1",
     "tsparticles": "^4.1.3",
     "typescript": "^4.9.5",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://krish709.github.io/birthday_react/"
+    "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "set PORT=3001 && react-scripts start",
