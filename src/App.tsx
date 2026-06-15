@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import "./App.css";
 import BirthdayCounter from "./BirthdayCounter";
 import BirthdayWishes from "./BirthdayWishes";
@@ -9,7 +9,7 @@ function App() {
   const snowflakes = Array.from({ length: 50 });
 
   return (
-    <BrowserRouter>
+   <HashRouter>
       <div className="container">
         {snowflakes.map((_, index) => (
           <div
@@ -48,7 +48,7 @@ function App() {
           </Routes>
         </div>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
